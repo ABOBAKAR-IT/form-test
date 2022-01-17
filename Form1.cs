@@ -26,7 +26,7 @@ namespace formtest
             obj.set(name, roll, clas);
             Form1 form1 = new Form1();
             Form2 form2 = new Form2(obj);
-            form1.Hide();
+            this.Hide();
             form2.Show();
         }
     }

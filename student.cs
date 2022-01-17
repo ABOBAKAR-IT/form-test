@@ -11,15 +11,11 @@ namespace formtest
         public  string name;
         public int rollno;
         public string clas;
-
-       
         public void set(string n,int r,string c)
         {
             this.name =n;
             this.clas = c;
             this.rollno = r;
         }
-       
-
     }
 }
